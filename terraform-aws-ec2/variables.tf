@@ -17,5 +17,5 @@ variable "availability_zone" {
 # Tags
 variable "tags" {
   type = string
-  default = "my_instance9000"
+  default = "my_instance90"
 }
