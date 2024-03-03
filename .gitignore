@@ -1,0 +1,9 @@
+.gitignore
+# Local .terraform directories
+**/.terraform/*
+**/.terraform.lock.*
+
+**/.terragrunt-cache/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
