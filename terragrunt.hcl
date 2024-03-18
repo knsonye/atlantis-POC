@@ -7,7 +7,7 @@ remote_state {
   config = {
     bucket         = "tf-atlantis-state-demo"
     key            = "${path_relative_to_include()}/terraform.tfstate"
-    region         = "us-gov-east-1"
+    region         = "us-east-1"
     encrypt        = true
   }
 }
